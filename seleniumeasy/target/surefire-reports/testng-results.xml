@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8709" started-at="2021-05-16T16:58:18 IST" finished-at="2021-05-16T16:58:27 IST">
+    <groups>
+    </groups>
+    <test name="SeleniumEasy" duration-ms="8709" started-at="2021-05-16T16:58:18 IST" finished-at="2021-05-16T16:58:27 IST">
+      <class name="TestCases.InputForms_TestCases">
+        <test-method status="PASS" signature="inputForms_simpleFormDemo()[pri:0, instance:TestCases.InputForms_TestCases@4dfa3a9d]" name="inputForms_simpleFormDemo" duration-ms="3767" started-at="2021-05-16T16:58:18 IST" finished-at="2021-05-16T16:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputForms_simpleFormDemo -->
+        <test-method status="PASS" signature="inputForms_checkBoxDemo_Single()[pri:1, instance:TestCases.InputForms_TestCases@4dfa3a9d]" name="inputForms_checkBoxDemo_Single" duration-ms="1069" started-at="2021-05-16T16:58:22 IST" finished-at="2021-05-16T16:58:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputForms_checkBoxDemo_Single -->
+        <test-method status="PASS" signature="inputForms_checkBoxDemo_Multiple()[pri:2, instance:TestCases.InputForms_TestCases@4dfa3a9d]" name="inputForms_checkBoxDemo_Multiple" duration-ms="61" started-at="2021-05-16T16:58:23 IST" finished-at="2021-05-16T16:58:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputForms_checkBoxDemo_Multiple -->
+      </class> <!-- TestCases.InputForms_TestCases -->
+      <class name="TestCases.InvokeBrowser">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestCases.InvokeBrowser@146ba0ac]" name="invokeBrowser" is-config="true" duration-ms="6181" started-at="2021-05-16T16:58:12 IST" finished-at="2021-05-16T16:58:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.InvokeBrowser@146ba0ac]" name="tearDown" is-config="true" duration-ms="649" started-at="2021-05-16T16:58:27 IST" finished-at="2021-05-16T16:58:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.InvokeBrowser -->
+      <class name="TestCases.DatePickers_TestCases">
+        <test-method status="PASS" signature="bootstrapDatePicker()[pri:0, instance:TestCases.DatePickers_TestCases@6eebc39e]" name="bootstrapDatePicker" duration-ms="3793" started-at="2021-05-16T16:58:23 IST" finished-at="2021-05-16T16:58:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bootstrapDatePicker -->
+      </class> <!-- TestCases.DatePickers_TestCases -->
+    </test> <!-- SeleniumEasy -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name ="url" value ="https://www.seleniumeasy.com/test/"/>
+  <test thread-count="5" name="SeleniumEasy">
+  <classes>
+  <class name='TestCases.InvokeBrowser'/>
+  <class name='TestCases.InputForms_TestCases'/>
+  <class name='TestCases.DatePickers_TestCases'/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
