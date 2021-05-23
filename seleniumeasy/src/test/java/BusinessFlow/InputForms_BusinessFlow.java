@@ -13,7 +13,7 @@ public static void validatesingleiputForm() throws InterruptedException {
 	driver.findElement(By.xpath(InputForms_Locators.inputForms_link)).click();
 	driver.findElement(By.xpath(InputForms_Locators.inputForms_simpleForm_link)).click();
 	driver.findElement(By.id(InputForms_Locators.inputForms_simpleForm_inputBox)).sendKeys(Data.FirstName);
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	driver.findElement(By.xpath(InputForms_Locators.inputForms_simpleForm_button)).click();	
 }
 
